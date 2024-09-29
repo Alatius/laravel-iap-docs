@@ -36,7 +36,7 @@ Feel free to join our humble community on Github.
 
 ## Technical decisions
 
-LIAP is a wrapper over two packages App Store IAP and Google Play Billing. Developing and maintaining separate packages
+LIAP is a wrapper over two packages, App Store IAP and Google Play Billing. Developing and maintaining separate packages
 per store gives us the ability to re-use the code to support different PHP frameworks. We started by Laravel, but
 supporting other Frameworks is planned, the next one will be Symfony. In addition to code re-usability, separate
 packages opens the door to support more stores and service providers in the future.
